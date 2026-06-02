@@ -1,0 +1,23 @@
+[
+  {
+    "id": "SALES-PAYMENT-001",
+    "category": "payment",
+    "severity_hint": "high",
+    "review_question": "Are payment milestones, triggers, amounts, and late-payment responsibilities clear?",
+    "recommended_action": "Clarify payment timing, objective payment conditions, invoice requirements, and overdue payment liability."
+  },
+  {
+    "id": "SALES-ACCEPTANCE-001",
+    "category": "acceptance",
+    "severity_hint": "medium",
+    "review_question": "Are acceptance standards, procedures, objection periods, and deemed acceptance conditions specific?",
+    "recommended_action": "Add objective acceptance criteria, inspection process, objection period, and evidence requirements."
+  },
+  {
+    "id": "SALES-LIABILITY-001",
+    "category": "liability",
+    "severity_hint": "high",
+    "review_question": "Are breach responsibilities reciprocal, proportionate, and capped where appropriate?",
+    "recommended_action": "Balance seller and buyer breach liabilities and consider liability caps for indirect or consequential losses."
+  }
+]
