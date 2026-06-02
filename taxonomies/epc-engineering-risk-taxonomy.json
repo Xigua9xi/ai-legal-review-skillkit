@@ -1,0 +1,23 @@
+[
+  {
+    "id": "EPC-SCOPE-001",
+    "category": "scope_boundary",
+    "severity_hint": "high",
+    "review_question": "Is the EPC or engineering scope consistent across the main contract and attachments?",
+    "recommended_action": "Align scope descriptions and define responsibility boundaries for design, procurement, construction, testing, and commissioning."
+  },
+  {
+    "id": "EPC-CHANGE-001",
+    "category": "change_order",
+    "severity_hint": "medium",
+    "review_question": "Does the contract provide a workable process for variation, price adjustment, and schedule extension?",
+    "recommended_action": "Define written change approval, price/time adjustment method, and evidence requirements before performance where possible."
+  },
+  {
+    "id": "EPC-CLAIM-001",
+    "category": "claims",
+    "severity_hint": "medium",
+    "review_question": "Are claim notice periods, evidence standards, and response periods balanced and realistic?",
+    "recommended_action": "Set clear claim notice and response procedures and avoid one-sided time-bar clauses."
+  }
+]
