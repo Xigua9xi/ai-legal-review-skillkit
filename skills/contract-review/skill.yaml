@@ -1,0 +1,31 @@
+name: public_contract_legal_review
+display_name: Public Contract Legal Review
+version: 0.1.0
+domain: legal_contract
+risk_level: high
+requires_human_review: true
+
+allowed_actions:
+  - read_text
+  - extract_clauses
+  - analyze_contract_risk
+  - generate_revision_suggestions
+  - generate_review_report
+
+forbidden_actions:
+  - make_final_legal_decision
+  - sign_or_approve_contract
+  - access_external_system_without_user_request
+  - modify_original_file_without_confirmation
+
+input_modes:
+  - plain_text
+  - extracted_document_text
+  - document_package_summary
+
+contract_types:
+  - general
+  - sales
+  - epc_engineering
+  - tender_package
+  - unknown
